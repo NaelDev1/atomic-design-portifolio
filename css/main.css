@@ -14,7 +14,7 @@
         display:block;
         background-color: #1c1c1c;
         border: 30px solid #000;
-    }
+    } 
 
     .jl-topbar {
         width: 100%;
@@ -43,6 +43,11 @@
         margin: 55px auto 0  auto;
     }
 
+
+    .jl-menu {
+        display: none;
+    }
+
 }
 
 @media screen and (min-width: 576px) {
@@ -54,6 +59,49 @@
 }
 
 @media screen and (min-width: 992px) {
+
+    .jl-menu {
+        display: table;
+        float:left;
+        height: 110px;
+        margin-left: 30px;
+    }
+
+    .jl-menu a {
+        font-family: 'Open Sans';
+        font-size: 16px;
+        color: #bcbcbc;
+        text-transform: lowercase;
+        text-decoration: none;
+        display:inline-block;
+        margin:50px 20px 0  20px  ;
+        font-weight: 400;
+        position:relative;
+    }
+    .jl-menu a:first-child {
+        padding-left: 0;
+    }
+    .jl-menu a:hover {
+
+        color: #2ccb69;
+    }
+
+    .jl-menu a::before {
+
+        content: '';
+        width:0%;
+        height: 4px;
+        background-color: #2ccb69;
+        position: absolute;
+        display: block;
+        bottom: 0;
+        transition: all 0.3s ease-out;
+    }
+    .jl-menu a:hover:before {
+        width: 100%;
+    }
+
+
 
 }
 
