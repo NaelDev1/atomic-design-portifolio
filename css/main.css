@@ -70,9 +70,7 @@ p{
         cursor:pointer;
     }
 
-    .jl-btn-contact:hover {
-        background-position-y: -45px;
-    }
+   
 
     .jl-contact-info {
         width: 245px;
@@ -82,6 +80,7 @@ p{
         bottom: 115px;
         right: 65px;
         z-index: 200;
+        display: none;
     }
     .jl-contact-info-inner p {
         font-size: 18px;
@@ -240,3 +239,13 @@ p{
     background-color: #000;
 }
 
+
+/* CLASSES COMPORTAMENTO */
+
+.jl-is-open {
+    display: block;
+}
+
+.jl-change-icon {
+      background-position-y: -45px;
+}
