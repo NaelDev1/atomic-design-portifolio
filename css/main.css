@@ -251,6 +251,44 @@ p{
     background-color: #000;
 }
 
+.jl-mar-15 {
+    margin: 15px;
+}
+.jl-mar-top-15 {
+    margin-top: 15px;
+}
+.jl-mar-right-15 {
+    margin-right: 15px;
+}
+.jl-mar-bottom-15 {
+    margin-bottom: 15px;
+}
+.jl-mar-left-15 {
+    margin-left: 15px;
+}
+
+
+.jl-pad-15 {
+    padding: 15px;
+}
+.jl-pad-top-15 {
+    padding-top: 15px;
+}
+.jl-pad-right-15 {
+    padding-right: 15px;
+}
+.jl-pad-bottom-15 {
+    padding-bottom: 15px;
+}
+.jl-pad-left-15 {
+    padding-left: 15px;
+}
+
+
+
+
+
+
 
 /* CLASSES COMPORTAMENTO */
 
